@@ -75,7 +75,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><p>拍了个用奶瓶喂鱼的视频，里面还有很多小动物。<br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/3b8d8743-6de1-4a1a-bd30-03e10e7a3e60"><img src="https://github.com/user-attachments/assets/3b8d8743-6de1-4a1a-bd30-03e10e7a3e60" alt="011851A8" style="max-width: 100%;"></a><br>
-<a href="https://live.yangxiaohan.us.kg/logo/jinhua.mp4" rel="nofollow">https://live.yangxiaohan.us.kg/logo/jinhua.mp4</a></p></div>
+<a href="https://live.yangxiaohan.us.kg/logo/jinhua.mp4" rel="nofollow">https://live.yangxiaohan.us.kg/logo/jinhua.mp4</a><br>
+<a href="https://live.yangxiaohan.us.kg/logo/%E7%9C%8B%E8%A1%A8%E6%BC%94.jpg" rel="nofollow">https://live.yangxiaohan.us.kg/logo/看表演.jpg</a><br>
+<a href="https://live.yangxiaohan.us.kg/logo/%E5%B0%8F%E7%86%8A.jpg" rel="nofollow">https://live.yangxiaohan.us.kg/logo/小熊.jpg</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -134,7 +136,11 @@ console.log("\n %c Gmeek main https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){
